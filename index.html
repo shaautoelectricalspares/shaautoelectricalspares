@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="SHA Auto Electrical Spares - Automotive relays, fuses, connectors, switches and wiring accessories. Enquire for stock and delivery.">
+<title>SHA Auto Electrical Spares | Car Electrical Parts</title>
+<style>
+:root{--navy:#12345a;--blue:#1769aa;--sky:#eaf3fb;--ink:#172b42;--muted:#5e6d7d;--white:#fff;--line:#d8e3ed;--green:#15803d}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#f7fafd;line-height:1.55}
+a{color:inherit}.topbar{background:var(--navy);color:#fff;text-align:center;padding:8px 14px;font-size:13px}
+header{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5}
+.nav{max-width:1120px;margin:auto;padding:14px 20px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+.brand{display:flex;align-items:center;gap:11px;text-decoration:none;font-weight:800;color:var(--navy);font-size:18px}
+.logo{background:var(--navy);color:#fff;width:45px;height:45px;border-radius:12px;display:grid;place-items:center;font-weight:900;font-size:17px;box-shadow:inset -4px -4px 0 #1769aa}
+nav{display:flex;gap:20px;align-items:center;font-size:14px}nav a{text-decoration:none;color:var(--ink)}nav a:hover{color:var(--blue)}
+.btn{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;border:0;border-radius:9px;padding:11px 16px;background:var(--blue);color:#fff;font-weight:700;cursor:pointer}
+.btn.alt{background:#fff;color:var(--navy);border:1px solid var(--line)}.btn.green{background:var(--green)}
+.hero{background:linear-gradient(120deg,#102e51,#1769aa);color:#fff;overflow:hidden}
+.hero-inner{max-width:1120px;margin:auto;padding:66px 20px;display:grid;grid-template-columns:1.25fr .75fr;gap:36px;align-items:center}
+.eyebrow{letter-spacing:1.5px;text-transform:uppercase;font-size:12px;font-weight:800;color:#bfe1ff}
+h1{font-size:clamp(34px,5vw,56px);line-height:1.08;margin:13px 0 18px;letter-spacing:-1.2px}
+.hero p{font-size:17px;color:#e4f2ff;max-width:620px}
+.hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}
+.hero .btn.alt{background:transparent;color:#fff;border-color:#8db9df}
+.hero-card{background:#fff;color:var(--navy);border-radius:20px;padding:25px;box-shadow:0 18px 50px #061b3544}
+.hero-card .big{font-size:48px}.hero-card h3{margin:5px 0}.hero-card p{color:var(--muted);font-size:14px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:17px}.chip{background:var(--sky);color:var(--navy);padding:7px 10px;border-radius:99px;font-size:12px;font-weight:700}
+section{max-width:1120px;margin:auto;padding:52px 20px}
+.section-head{display:flex;align-items:end;justify-content:space-between;gap:20px;margin-bottom:24px}
+h2{font-size:30px;line-height:1.2;margin:0;color:var(--navy)}.sub{color:var(--muted);margin:8px 0 0}
+.search{width:min(100%,300px);padding:12px 14px;border:1px solid var(--line);border-radius:10px;font-size:14px}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.product{background:#fff;border:1px solid var(--line);border-radius:14px;padding:17px;display:flex;flex-direction:column;min-height:218px;box-shadow:0 5px 16px #173b5c08}
+.product-icon{height:60px;width:60px;border-radius:14px;background:var(--sky);display:grid;place-items:center;font-size:29px;margin-bottom:12px}
+.sku{font-size:11px;color:var(--blue);font-weight:800;letter-spacing:.4px}.product h3{font-size:16px;margin:5px 0}.spec{font-size:12px;color:var(--muted);margin:0 0 12px;flex:1}
+.price{font-size:15px;font-weight:800;color:var(--navy);margin-bottom:12px}.product .btn{font-size:12px;padding:9px}
+.features{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}
+.feature{background:#fff;border:1px solid var(--line);padding:20px;border-radius:13px}.feature b{display:block;color:var(--navy);margin:8px 0 4px}.feature p{font-size:13px;color:var(--muted);margin:0}
+.order{background:var(--sky);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.order-inner{max-width:1120px;margin:auto;padding:48px 20px;display:grid;grid-template-columns:1fr 1fr;gap:35px}
+.steps{padding-left:20px}.steps li{margin:10px 0}
+.contact-card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:24px}
+.contact-row{padding:12px 0;border-bottom:1px solid var(--line)}.contact-row:last-child{border:0}
+.note{font-size:12px;color:var(--muted)}
+footer{background:#0d2745;color:#dceafa;padding:27px 20px;text-align:center;font-size:13px}footer b{color:#fff}
+@media(max-width:850px){.grid{grid-template-columns:repeat(2,1fr)}.features{grid-template-columns:repeat(2,1fr)}.hero-inner{grid-template-columns:1fr;padding:48px 20px}.hero-card{max-width:460px}.order-inner{grid-template-columns:1fr}nav{gap:10px}nav a:not(.btn){display:none}}
+@media(max-width:480px){.grid{grid-template-columns:1fr 1fr;gap:10px}.product{padding:12px;min-height:225px}.product h3{font-size:14px}.product-icon{height:48px;width:48px;font-size:24px}.features{grid-template-columns:1fr 1fr}.section-head{align-items:stretch;flex-direction:column}.search{width:100%}.brand{font-size:15px}.hero-card .big{font-size:40px}}
+</style>
+</head>
+<body>
+<div class="topbar">Car Electrical Spare Parts • Product enquiry & order support</div>
+<header><div class="nav">
+<a class="brand" href="#home"><span class="logo">SHA</span><span>SHA Auto Electrical Spares<small style="display:block;font-size:11px;font-weight:500;color:#5e6d7d">Drive Safe • Stay Connected</small></span></a>
+<nav><a href="#products">Products</a><a href="#how-to-order">How to Order</a><a href="#contact" class="btn">Contact Us</a></nav>
+</div></header>
+<main id="home">
+<div class="hero"><div class="hero-inner">
+<div><div class="eyebrow">Your online car electrical parts shop</div>
+<h1>Small Parts.<br>Big Journeys.</h1>
+<p>Find automotive relays, fuses, connectors, switches and wiring accessories. Send us your part number or a clear photo to enquire about availability and price.</p>
+<div class="hero-actions"><a class="btn green" href="#contact">Order on WhatsApp</a><a class="btn alt" href="#products">Browse Products</a></div>
+<div class="chips"><span class="chip">Relays & Fuses</span><span class="chip">Connectors</span><span class="chip">Switches</span><span class="chip">Wiring Accessories</span></div></div>
+<div class="hero-card"><div class="big">⚡ 🚗</div><h3>Need the right part?</h3><p>Share vehicle make, model, year, fuel type and old-part photo. We’ll confirm availability and the final price before you order.</p><a class="btn" href="#how-to-order">See How to Order</a></div>
+</div></div>
+<section id="products"><div class="section-head"><div><h2>Product Catalogue</h2><p class="sub">Browse popular automotive electrical parts.</p></div><input class="search" id="search" placeholder="Search products or SKU…" aria-label="Search products"></div>
+<div class="grid" id="productGrid"></div>
+<p class="note">Prices shown are indicative estimates only, not confirmed live prices. Final price, stock, shipping and warranty must be confirmed before payment. Vehicle compatibility should be checked before purchase.</p>
+</section>
+<section><div class="section-head"><div><h2>Why Choose SHA?</h2><p class="sub">Clear details and simple ordering.</p></div></div>
+<div class="features">
+<div class="feature"><span style="font-size:26px">✓</span><b>Part Details</b><p>SKU and specifications help identify the item.</p></div>
+<div class="feature"><span style="font-size:26px">⚙</span><b>Useful Range</b><p>Common relays, fuses, switches and connectors.</p></div>
+<div class="feature"><span style="font-size:26px">₹</span><b>Price Confirmation</b><p>Confirm total price before making payment.</p></div>
+<div class="feature"><span style="font-size:26px">📦</span><b>Delivery Updates</b><p>Shipping options and tracking shared when available.</p></div>
+</div></section>
+<div class="order" id="how-to-order"><div class="order-inner">
+<div><h2>How to Order</h2><p class="sub">A simple order process for online customers.</p>
+<ol class="steps"><li>Choose the product and note its SKU.</li><li>Send the SKU, quantity and delivery PIN code.</li><li>For vehicle-specific parts, share make, model, year and a photo of the old part.</li><li>Confirm stock, final price and shipping charge.</li><li>Pay through the agreed traceable payment method and keep the order confirmation.</li></ol></div>
+<div class="contact-card" id="contact"><h2>Contact & Orders</h2><p class="sub">WhatsApp contact details will be added when supplied.</p>
+<div class="contact-row"><b>WhatsApp Orders</b><br><span class="note">Contact Us — phone number not yet added</span></div>
+<div class="contact-row"><b>Business</b><br>SHA Auto Electrical Spares</div>
+<div class="contact-row"><b>Delivery</b><br><span class="note">Courier / parcel service; charges and estimated delivery time confirmed per order.</span></div>
+<a class="btn" href="mailto:">Email link not configured</a>
+<p class="note">To activate WhatsApp ordering, replace the placeholder in this website with your WhatsApp number including country code (India: 91).</p>
+</div></div></div>
+<section><h2>Shipping, Returns & Warranty</h2><p class="sub">Please confirm the final terms before placing an order.</p>
+<div class="features">
+<div class="feature"><b>Shipping</b><p>Shipping charges are extra unless a written offer states otherwise.</p></div>
+<div class="feature"><b>Returns</b><p>Return eligibility and time limit must be confirmed before purchase and follow applicable law.</p></div>
+<div class="feature"><b>Warranty</b><p>Only manufacturer or supplier warranty specifically confirmed for the item applies.</p></div>
+<div class="feature"><b>Safety</b><p>Use correctly rated electrical parts. Never bypass a fuse or fit a higher-rated fuse to hide a fault.</p></div>
+</div></section>
+</main>
+<footer><b>SHA Auto Electrical Spares</b><br>Drive Safe • Stay Connected<br><span style="opacity:.75">Product availability and prices are subject to confirmation.</span></footer>
+<script>
+const products = [
+["SHA-001","12V 4-Pin Automotive Relay","12V • 4-pin • confirm current rating","₹60–₹130","🔌"],
+["SHA-002","12V 5-Pin Automotive Relay","12V • 5-pin changeover type","₹80–₹160","🔌"],
+["SHA-003","Mini Blade Fuse Set","Clearly labelled amperage ratings","₹50–₹120","🧩"],
+["SHA-004","Standard Blade Fuse Set","Common automotive fuse sizes","₹50–₹120","🧩"],
+["SHA-005","Inline Fuse Holder","Match fuse type and current rating","₹50–₹120","🔋"],
+["SHA-006","Relay Socket / Base","Check pin compatibility","₹50–₹140","🔌"],
+["SHA-007","Automotive Wire Terminals","Assorted crimp terminal pack","₹70–₹180","🪛"],
+["SHA-008","2-Pin Waterproof Connector","Confirm connector and seal type","₹70–₹180","🔗"],
+["SHA-009","2/4/6-Pin Coupler Set","Vehicle fitment must be verified","₹90–₹220","🔗"],
+["SHA-010","12V Rocker Switch","Check current rating and layout","₹70–₹180","⏻"],
+["SHA-011","12V Toggle Switch","Check current rating and terminals","₹60–₹150","⏻"],
+["SHA-012","Automotive Wire (short roll)","Specify gauge and length","₹90–₹220","〰️"],
+["SHA-013","Battery Terminal Pair","Confirm post size and material","₹120–₹300","🔋"],
+["SHA-014","Heat-Shrink Tube Set","Confirm size range and pack quantity","₹80–₹200","🧰"],
+["SHA-015","Cable Tie Assortment","Specify length and quantity","₹40–₹100","🧰"],
+["SHA-016","Insulation Tape Pack","Brand and roll count to be confirmed","₹60–₹150","🧵"],
+["SHA-017","Headlight Relay Harness","Confirm wire gauge and fuse rating","₹150–₹350","💡"],
+["SHA-018","H4 Bulb Connector / Pigtail","Confirm connector and wire rating","₹70–₹180","💡"],
+["SHA-019","Ground / Earth Strap","Confirm length and terminal size","₹80–₹220","🔩"],
+["SHA-020","12V Automotive Test Lamp","Basic 12V diagnostic tool","₹120–₹300","🔦"]
+];
+const grid = document.getElementById("productGrid");
+function render(list){grid.innerHTML=list.map(p=>`<article class="product"><div class="product-icon">${p[4]}</div><div class="sku">${p[0]}</div><h3>${p[1]}</h3><p class="spec">${p[2]}</p><div class="price">${p[3]}</div><a class="btn" href="#contact" onclick="return true">Enquire</a></article>`).join("");}
+render(products);
+document.getElementById("search").addEventListener("input",e=>{const q=e.target.value.toLowerCase();render(products.filter(p=>p.join(" ").toLowerCase().includes(q)));});
+</script>
+</body>
+</html>
